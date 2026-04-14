@@ -1,0 +1,15 @@
+# 1. Tus contraseñas y llaves secretas (¡EL MÁS IMPORTANTE!)
+.env
+
+# 2. La base de datos temporal desechable que creó el robot de Pytest
+test_desechable.db
+
+# 3. Archivos basura y memoria caché que genera Python automáticamente
+__pycache__/
+.pytest_cache/
+
+# 4. Entornos virtuales (Si tu carpeta se llama 'venv' o 'env')
+venv/
+
+# 5. Si de verdad insistes en ocultar tus tests (aunque no te lo recomiendo jeje)
+tests/
