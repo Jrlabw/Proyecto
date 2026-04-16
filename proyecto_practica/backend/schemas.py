@@ -1,10 +1,4 @@
-"""
-El archivo models.py (SQLAlchemy) habla única y exclusivamente con PostgreSQL. 
-A él no le importa qué te manda el usuario desde el navegador.
-El archivo schemas.py (Pydantic) habla única y exclusivamente con Internet.
-A él no le importa cómo se guardan los datos en el disco duro; su único trabajo es revisar la
-mochila del usuario en la puerta de entrada (POST) o de salida (GET).
-"""
+
 from pydantic import BaseModel,Field
 from typing import Optional, List
 
