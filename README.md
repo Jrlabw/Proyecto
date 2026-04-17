@@ -1,3 +1,3 @@
-Repositorio donde intento crear una pagina de ropa
+Repo de practica para manejo de backend, con arquitectura de rutas en python
 
 Manejo de lenguajes como Python y FastAPI
