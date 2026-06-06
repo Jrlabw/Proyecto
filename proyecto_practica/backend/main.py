@@ -5,11 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers import auth, pedidos, productos, usuarios
 
-"""
-Ahora que tienes los 3 archivos base (el Cuarto de Máquinas, el Espejo y el Guardia de Seguridad), vamos a limpiar tu main.py.
-Este archivo ya no va a tener contraseñas, ni comandos SQL sucios, ni validaciones manuales. 
-Su único trabajo será recibir al cliente, pedirle los datos a la base de datos a través del ORM, y devolverlos.
- """
+
 
 
 
